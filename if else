@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+    unary----++,--,a++,unary----
+    binar -----a+b,a-b
+    ternary ----- a=condition ? true:false;
+    
+    relational operators=== "==","<=",">=","<".">"
+    logical operators===== "&&","||","!"
+    a<10 && b>100
+    a<10 || b>100
+    ! a>10
+    if(condition){
+        true;
+    }
+    if(condition){
+        true;
+    }else{
+        false;
+    }
+    //write a program to take input age and name 
+    //print true if age is greater than or equal to 18 otherwise false.
+    int age;
+    char name[50];
+    scanf("%d %s",&age,&name);
+    if(age >=18){
+        printf("True");
+    }else{
+        printf("False");
+    }
+
+    return 0;
+}
